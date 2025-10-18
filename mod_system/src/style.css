@@ -1,20 +1,79 @@
-.main_title{
- width: 100vw;
- height: 3.5vw;
- text-align: center;
- margin-top: -372px;
- color: white;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6; 
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: #1e293b;
 }
 
-.main_title h1{
-    font-size: 36px;
+
+.main_title {
+  width: 100vw;
+  height: 80px;
+  background-color: #2563eb; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-top: -80px;
 }
 
-/* .div1 h1{
-    color: black;
-} */
+.main_title h1 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 
-body{
-    background-color: rgba(0,0,0,0.3);
- 
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.SearchBar input {
+  width: 300px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+}
+
+
+.main_module_sel_section {
+  background-color: #ffffff;
+  width: 500px;
+  height: 300px;
+  border-radius: 12px;
+  border-top: 10px solid #38bdf8; 
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.Module_Data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Module_Data p {
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.Module_Data button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.Module_Data button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
 }
